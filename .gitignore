@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+myenv/
+env/
+
+# Django database
+db.sqlite3
+
+# Django migrations
+*/migrations/__pycache__/
+*/migrations/*.py
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Elastic Beanstalk - ignore most files but keep important config
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
